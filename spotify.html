@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Khalit's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+			<div id="wrapper">
+
+					<header id="header">
+						<h1>Project Details</h1>
+					</header>
+
+        <nav id="nav">
+          <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="assets/PDF/Khalit_Jibril_CV.pdf">CV</a></li>
+          </ul>
+          <ul class="icons">
+            <li><a href="https://www.linkedin.com/in/khalit-jibril-96aa5a234/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+            <li><a href="https://github.com/khalit23" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+          </ul>
+					</nav>
+
+					<div id="main">
+
+							<section class='project_description'>
+								<h3>Why did I undertake this project?</h3>
+								<p>I've often wanted to create a playlist without having to undetake the tedious task of adding individual songs to the playlist.
+									As such, I created a programme that automates this process!
+								</p>
+								<h3>How does it work?</h3>
+								<p>The programme will ask you for the year of music you would like to create a playlist around.
+									It will then find the top 100 songs from that year and add it to a playlist.
+									The user does not have to do anything other than specify which year of music they'd like to listen to.
+								</p>
+								<h3>Technicals</h3>
+								<p>To complete this project I used Python and more importantly the Beautiful Soup library in Python.
+									I used Beautiful soup in order to scrape my desired information from the Billboard 100 websites.
+									I then stored the song names in a list.
+									In order to create the playlist, I had to use the spotify API in order to push a request to create a playlist containing all the songs in my list.
+								</p>
+								<h3>Skills</h3>
+								<p style="text-align: center;">Python - API - Beautiful Soup
+								</p>
+							</section>
+
+					</div>
+
+					<footer id="footer">
+						<section class="split contact">
+							<section>
+								<h3>Email</h3>
+								<p>khalitjibril23@hotmail.com</p>
+							</section>
+					</footer>
+
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
